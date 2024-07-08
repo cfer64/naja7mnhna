@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by ZORO YT</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naja7 Mnhna - Educational Platform</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="auth-container" class="container">
+    <div id="form-container">
+        <div class="form-header">
+            <button id="login-btn" class="active">Login</button>
+            <button id="signup-btn">Sign Up</button>
+        </div>
+        <div id="login-form" class="form-content active">
+            <h2>Login</h2>
+            <form id="login">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" required>
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" required>
+                <button type="submit" id="login-submit">Login</button>
+            </form>
+        </div>
+        <div id="signup-form" class="form-content hidden">
+            <h2>Sign Up</h2>
+            <form id="signup">
+                <label for="signup-name">Name</label>
+                <input type="text" id="signup-name" required>
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" required>
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" required>
+                <button type="submit" id="signup-submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="main-content" class="hidden">
+    <header>
+        <div class="container">
+            <h1>Naja7 Mnhna - Educational Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a id="logout-btn" href="#">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Naja7 Mnhna</h2>
+            <p>Explore our educational platform designed to help you succeed.</p>
+        </div>
+    </section>
+
+    <section id="courses" class="section hidden">
+        <div class="container">
+            <h2>Featured Courses</h2>
+            <div class="course">
+                <h3>Course Title 1</h3>
+                <p>Description of the course goes here.</p>
+                <a href="#" class="btn">Enroll Now</a>
+            </div>
+            <div class="course">
+                <h3>Course Title 2</h3>
+                <p>Description of the course goes here.</p>
+                <a href="#" class="btn">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section hidden">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for any inquiries or feedback.</p>
+        </div>
+    </section>
+
+    <section id="profile" class="section hidden">
+        <div class="container">
+            <h2>Profile Information</h2>
+            <p>Name: <span id="profile-name"></span></p>
+            <p>Email: <span id="profile-email"></span></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Naja7 Mnhna. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
